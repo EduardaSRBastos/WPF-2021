@@ -1,0 +1,48 @@
+﻿<Window x:Class="wpfCalculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfCalculadora"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="450" Width="800">
+    <Grid Margin="0,10,0,0">
+        <TextBox x:Name="num1" HorizontalAlignment="Left" Margin="76,0,0,0" Text="0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="100" FontSize="24" Height="42"/>
+        <TextBox x:Name="num2" HorizontalAlignment="Left" Margin="300,0,0,0" Text="0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="100" FontSize="24" Height="42"/>
+        <TextBox x:Name="resultado" HorizontalAlignment="Left" Margin="521,0,0,0" Text="0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="100" FontSize="24" Height="42" IsEnabled="False"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="450,0,0,0" VerticalAlignment="Center" FontSize="28"/>
+        <Button x:Name="mais" Content="+" HorizontalAlignment="Left" Margin="223,80,0,0" VerticalAlignment="Top" FontSize="28" Height="42" Width="31" Click="mais_Click"/>
+        <Button x:Name="menos" Content="-" HorizontalAlignment="Left" Margin="223,153,0,0" VerticalAlignment="Top" FontSize="24" Height="42" Width="31" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.57"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="menos_Copy" Content="-" HorizontalAlignment="Left" Margin="223,153,0,0" VerticalAlignment="Top" FontSize="28" Height="42" Width="31" RenderTransformOrigin="0.5,0.5" Click="menos_Copy_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.57"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="vezes" Content="*" HorizontalAlignment="Left" Margin="223,232,0,0" VerticalAlignment="Top" FontSize="28" Height="42" Width="31" Click="vezes_Click"/>
+        <Button x:Name="dividir" Content="/" HorizontalAlignment="Left" Margin="223,305,0,0" VerticalAlignment="Top" FontSize="28" Height="42" Width="31" RenderTransformOrigin="0.5,0.5" Click="dividir_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.57"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>

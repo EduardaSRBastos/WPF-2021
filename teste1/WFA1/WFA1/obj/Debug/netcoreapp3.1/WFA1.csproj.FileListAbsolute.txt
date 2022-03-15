@@ -1,0 +1,15 @@
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.exe
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.deps.json
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.runtimeconfig.json
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.runtimeconfig.dev.json
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.dll
+C:\uni\ProgMulti\WFA1\WFA1\bin\Debug\netcoreapp3.1\WFA1.pdb
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.csprojAssemblyReference.cache
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.Form1.resources
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.csproj.GenerateResource.cache
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.AssemblyInfoInputs.cache
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.AssemblyInfo.cs
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.csproj.CoreCompileInputs.cache
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.dll
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.pdb
+C:\uni\ProgMulti\WFA1\WFA1\obj\Debug\netcoreapp3.1\WFA1.genruntimeconfig.cache

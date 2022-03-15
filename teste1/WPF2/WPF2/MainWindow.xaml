@@ -1,0 +1,33 @@
+﻿<Window x:Class="WPF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF2"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nome:" HorizontalAlignment="Left" Margin="27,57,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Apelido:" HorizontalAlignment="Left" Margin="27,113,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="115,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" FontSize="20"/>
+        <TextBox x:Name="txtApelido" HorizontalAlignment="Left" Margin="115,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" FontSize="20"/>
+        <Button x:Name="btnAcrescentar" Content="Acrescentar" HorizontalAlignment="Left" Margin="368,30,0,0" VerticalAlignment="Top" FontSize="20" Click="btnAcrescentar_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="521,30,0,0" VerticalAlignment="Top" FontSize="20" Click="btnReset_Click"/>
+        <Label Content="Nome Completo:" HorizontalAlignment="Left" Margin="368,75,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtNomeCompleto" HorizontalAlignment="Left" Margin="368,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358" FontSize="20" IsEnabled="False" Background="#FFE88D8D"/>
+        <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="27,217,0,0" VerticalAlignment="Top" Width="188" RenderTransformOrigin="0.5,0.5" IsSynchronizedWithCurrentItem="False">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.286"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+        <ListBox x:Name="lst" Margin="280,217,308,27"/>
+        <Label Content="Nomes:" HorizontalAlignment="Left" Margin="27,175,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TreeView x:Name="tree" Margin="547,217,45,27"/>
+
+    </Grid>
+</Window>
